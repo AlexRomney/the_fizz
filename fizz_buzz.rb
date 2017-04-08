@@ -9,6 +9,7 @@ puts "It's as simple as that!"; sleep 2
 puts "So let's get started!".colorize(:green); sleep 2
 
 puts "Please enter a number:".colorize(:yellow)
+print "> "
 num = gets.strip.to_i
 puts "Your number is #{num}".colorize(:yellow); sleep 1
 puts "\nHere we go!\n".colorize(:green); sleep 1
